@@ -6,8 +6,8 @@ using namespace std;
 
 int main() {
 
-	int old_array[10] = {1,2,3,4,5,6,7,8,9,10};
-	int new_array[10];
+	int old_array[5] = {1,2,3,4,5,};
+	int new_array[5];
 	int length = (sizeof(old_array)/sizeof(*old_array));
 
     copy_integers(old_array, new_array, length);
