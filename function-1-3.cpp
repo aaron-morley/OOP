@@ -1,5 +1,8 @@
 // function-1-3.cpp
 
+#include<iostream>
+using namespace std;
+
 void copy_integers(int old_array[], int new_array[], int length) {
     int *a1 = old_array;
     int *a2 = new_array;

@@ -2,7 +2,7 @@
 
 #include <iostream>
 using namespace std;
-using function-1-3.cpp
+#include "function-1-3.cpp"
 
 int main() {
 
