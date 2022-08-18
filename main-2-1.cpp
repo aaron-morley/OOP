@@ -1,8 +1,8 @@
 // main-2-1.cpp
 
 #include <iostream>
-#include <function-2-1.cpp>
 using namespace std;
+#include "function-2-1.cpp"
 
 
 int main() {

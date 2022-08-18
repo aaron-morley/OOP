@@ -2,7 +2,7 @@
 
 #include<iostream>
 using namespace std;
-using function-2-2.cpp;
+#include "function-2-2.cpp"
 
 int main() {
 	int nums[11] = {31,-41,59,26,-53,58,97,-93,-2,3,84};

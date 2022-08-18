@@ -1,5 +1,8 @@
 // function-2-2.cpp
 
+#include<iostream>
+using namespace std;
+
 int max_sub_sum(int *nums, int length) {
    int current_max = 0;
    int working_max = 0;

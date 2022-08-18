@@ -1,5 +1,8 @@
 // function-2-1.cpp
 
+#include<iostream>
+using namespace std;
+
 void multiples_of_seven(int *nums, int length) {
     int *p = nums;
 	
