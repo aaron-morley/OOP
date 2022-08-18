@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-int max_sub_sum(int *nums, int length) {
+extern int max_sub_sum(int *nums, int length) {
    int current_max = 0;
    int working_max = 0;
    for(int i=0; i<length; i++) {

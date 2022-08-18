@@ -3,7 +3,7 @@
 #include<iostream>
 using namespace std;
 
-void multiples_of_seven(int *nums, int length) {
+extern void multiples_of_seven(int *nums, int length) {
     int *p = nums;
 	
     for(;p < nums+length; p++){
