@@ -11,4 +11,11 @@ int main() {
 	int length = (sizeof(old_array)/sizeof(*old_array));
 
     copy_doubles(old_array, new_array, length);
+	
+	for (int i = 0; i < length; i++)
+    {
+        printf("%d ", new_array[i]);
+    }
+
+    return 0;
 }
